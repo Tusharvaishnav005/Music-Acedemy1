@@ -1,11 +1,14 @@
 /** @type {import('next').NextConfig} */
-export default {
-    images: {
+
+const nextConfig = {
+  images: {
         domains: ['images.unsplash.com', 'res.cloudinary.com']
     }
-    eslint: {
+  eslint: {
     ignoreDuringBuilds: true,
-    },
-}
+  },
+};
+
+export default nextConfig;
 
  
